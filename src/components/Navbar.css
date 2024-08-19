@@ -1,0 +1,33 @@
+nav {
+  background-color: #b502de;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.272);
+  height: 4rem;
+  width: 100%;
+
+  ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  li {
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: 300ms;
+    }
+
+    a:hover {
+      color: #4a006c;
+    }
+  }
+
+  .selected {
+    height: 100%;
+    color: #4a006c;
+  }
+}
